@@ -1,0 +1,49 @@
+.page {
+  color: #fff;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 18px;
+}
+
+.search-form__fieldset-title {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.title {
+  font-size: 75px;
+  font-weight: 700;
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  line-height: 94%;
+}
+
+.content__video-card-title {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 190px;
+}
+
+.content__video-card-description {
+  line-height: 16.2px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.search-form__textfield::placeholder {
+  color: rgb(255 255 255 / 0.7);
+  font-size: 18px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.button{
+  color: #fff;
+  font-weight: 700;
+}
+

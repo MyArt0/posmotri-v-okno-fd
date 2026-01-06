@@ -1,0 +1,16 @@
+.search-form__label:focus,
+.button:focus,
+.content__list-item:focus {
+  outline: none;
+}
+.search-form__label:has(:focus-visible) {
+  outline: 1px solid white;
+}
+
+.button:focus-visible { 
+  outline: 1px solid white;
+}
+
+.content__list-item:has(:focus-visible) {
+  outline: 1px solid white;
+}
